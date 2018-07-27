@@ -20,3 +20,5 @@ CREATE TRIGGER AUDIT_trg
     --WHEN (OLD.balance IS DISTINCT FROM NEW.balance)
     EXECUTE PROCEDURE process_emp_audit();
 	
+	INSERT INTO TEST2(YN, AGE, BOOL, CITY, DOLLAR)
+VALUES('Y', 78, true, 'bogota', '34.00'), ('Y', 45, false, 'chia', '340.00'),('N', 13, true, 'cajica', '84.00')
