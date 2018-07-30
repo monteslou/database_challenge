@@ -1,1 +1,5 @@
 pg_dump -U administrador -h 172.17.228.105 -p 5432 challenge > C:/Users/drodriguez/Documents/outfile.sql
+
+psql -U administrador -h 172.17.228.105 -d challenge-1 -f \\EN911018\Users\lmontes\Documents\DBdocuments\backup\outfile.sql
+
+pg_restore --data-only --table=tablename \\EN911018\Users\lmontes\Documents\DBdocuments\backup\outfile.sql > \\EN911018\Users\lmontes\Documents\DBdocuments\backup\onetable.sql

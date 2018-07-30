@@ -1,1 +1,1 @@
-\copy test2 from 'C:\Users\drodriguez\Documents\learning\DB\database_challenge\documents\demofile.csv' DELIMITER ',' CSV
+\copy test2 from '//EN911018/Users/lmontes/Documents/DBdocuments/database_challenge/documents/demofile.csv' DELIMITER ',' CSV
