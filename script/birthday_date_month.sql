@@ -1,1 +1,1 @@
-select extract(month from BIRTHDAY) from TEST2
+select extract(month from BIRTHDAY) from challenge

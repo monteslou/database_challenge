@@ -46,13 +46,13 @@ v_yn varchar(2) := l_yn[(select (random()+1) :: integer)];
  v_paragraph text := l_paragraph[(select (random()*9+1) :: integer)];
  v_sentence text := l_sentence[(select (random()*9+1) :: integer)];
 begin
-insert into test2(yn,age,birthday,bool,city,ccnumber,date,digit,dollar,first,chifre,name,last,paragraph,sentence)
+insert into challenge(yn,age,birthday,bool,city,ccnumber,date,digit,dollar,first,chifre,name,last,paragraph,sentence)
 	values(v_yn,v_age,v_birthday,v_bool,
 		   v_city,v_ccnumber,v_date,v_digit,v_dollar,v_first,v_chifre,v_name,v_last,v_paragraph,v_sentence);
 		   end;
 		   end loop;
 	begin
-		update test2 set trg = id +100 where trg is null;
+		update challenge set trg = id +100 where trg is null;
 	end;
 end;$$
 LANGUAGE plpgsql;

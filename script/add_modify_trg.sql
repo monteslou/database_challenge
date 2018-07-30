@@ -1,4 +1,4 @@
-Alter table TEST2
+Alter table challenge
 Add Column trg numeric 
 
-update TEST2 set trg = id + 100
+update challenge set trg = id + 100
