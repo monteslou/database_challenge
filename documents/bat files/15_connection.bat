@@ -1,0 +1,22 @@
+@echo off
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_1.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_2.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_3.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_4.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_5.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_6.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_7.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_8.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_9.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_10.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_11.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_12.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_13.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_14.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_15.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_16.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_17.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_18.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_19.bat
+start C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\connection\connection_20.bat
+pause

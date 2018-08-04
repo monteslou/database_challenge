@@ -1,0 +1,7 @@
+DELETE 100000
+ALTER SEQUENCE
+  count  
+---------
+ 1000000
+(1 row)
+

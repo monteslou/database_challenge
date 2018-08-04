@@ -1,0 +1,18 @@
+CREATE OR REPLACE FUNCTION process_emp_audit() RETURNS TRIGGER AS $emp_audit$
+    BEGIN
+		IF NEW.AGE%2 = 1 THEN
+            NEW.AGE := NEW.AGE-5;
+		ELSE
+			 NEW.AGE := NEW.AGE+3;
+        END IF;
+		RETURN NEW;
+    END;
+$emp_audit$ LANGUAGE plpgsql;
+
+DROP TRIGGER IF EXISTS AUDIT_TRG ON CHALLENGE;
+CREATE TRIGGER AUDIT_trg
+    BEFORE UPDATE ON CHALLENGE
+    FOR EACH ROW
+    WHEN (OLD.age IS DISTINCT FROM NEW.age)
+    EXECUTE PROCEDURE process_emp_audit();
+\q

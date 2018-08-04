@@ -1,0 +1,11 @@
+CREATE FUNCTION
+ add_data 
+----------
+ 
+(1 row)
+
+  count  
+---------
+ 1100000
+(1 row)
+

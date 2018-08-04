@@ -1,0 +1,1 @@
+psql -U administrador -h 172.17.228.105 -d challenge -1 -f \\EN911018\Users\lmontes\Documents\DBdocuments\backup\outfile.sql

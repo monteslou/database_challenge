@@ -1,0 +1,1 @@
+pg_restore --data-only --table=challenge C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\out\outfile.sql > C:\Users\lmontes\Documents\DBdocuments\database_challenge\documents\out\onetable.sql

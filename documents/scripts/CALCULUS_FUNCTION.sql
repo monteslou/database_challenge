@@ -1,0 +1,2 @@
+select calculus();
+\q
